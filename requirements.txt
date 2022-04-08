@@ -1,0 +1,6 @@
+opencv-contrib-python
+pupil-apriltags
+click
+optuna
+toml
+tqdm
