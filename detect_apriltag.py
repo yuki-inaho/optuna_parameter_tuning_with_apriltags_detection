@@ -20,7 +20,7 @@ def generate_tag_detector(quad_decimate=1.0, quad_sigma=0.0, refine_edges=1, dec
 
 
 @click.command()
-@click.option("--input-image-dir", "-i", type=str)
+@click.option("--input-image-dir", "-i", type=str, default=f"{SCRIPT_DIR}/data")
 @click.option("--parameter-path", "-c", type=str, default=f"{SCRIPT_DIR}/config/parameters.toml")
 def main(input_image_dir, parameter_path):
     """Get image pathes"""
